@@ -1,0 +1,160 @@
+body {
+    background-color: #1B0F3B;
+  }
+  
+
+
+#water{
+  position: absolute;
+  width: 100vw;
+  height: 10em; 
+  left: 0;
+  top: 0;
+}
+
+#water .water{
+  width: 200px;
+  margin-top: 20px;
+}
+
+#water .ring{
+  width: 250px;
+  float: right;
+  margin-top: -20px;
+}
+
+
+
+#ticket{
+  left: 25px;
+}
+
+#ticket h1{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+
+}
+
+
+
+
+#price{
+  position: relative;
+  background-color: #28155F ;
+  height: 15em;
+  width: 100vw;
+  left: 0;
+}
+
+
+.bycedi{
+  position: absolute;
+}
+
+.cedi{
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  padding: 0px 0em 0 2.5em;
+  margin-top: -1.3em;
+}
+
+.cedi span{
+  font-weight: lighter;
+}
+
+.dash{
+  display: none;
+}
+
+.buy{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 0;
+  margin-left: 20em;
+  margin-top: 2.5em;
+  border-radius:3px;
+  background: red;
+  border:1px solid red;
+  padding:10px 20px;
+	cursor: pointer;
+}
+
+.buy:hover {
+	background-color:red;
+}
+.buy:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+footer {
+  position: relative;
+  width: 100vw;
+  margin: 0 auto;
+
+}
+
+.center {
+  display: table;
+  width: 100%;
+  height: 10vh;
+}
+
+.partner img{
+  padding: 20px 20px;
+}
+
+
+#social-test {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+}
+ #social-test h2 {
+    color: #fff;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 100;
+  }
+  .social {
+    padding-left: 0px;
+  }
+  #social-test li {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s
+ 
+  }
+
+ .social li a{
+   color: white;
+  }
+
+    #social-test li a:hover {
+      color: #db2612;
+      border: 1px transparent #db2612;
+    }
+  
+
+
+.social:hover > li {
+  opacity: 0.5;
+}
+
+.social:hover > li:hover {
+  opacity: 1;
+}
+
